@@ -14,6 +14,10 @@ store.dispatch({
     window: {
       allowClose: false,
       allowMaximize: false,
+      sideBarOpen: true,
+      sideBarOpenByDefault: true,
+      defaultSideBarPanel: 'info',
+      allowWindowSideBar: false,
     },
     windows: [{
      id: 'main',

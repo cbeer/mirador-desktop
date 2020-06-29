@@ -16,3 +16,8 @@ body {
   right: 0;
   bottom: 0;
 }
+
+.mirador-window-top-bar {
+  -webkit-app-region: drag;
+  padding-left: 80px !important;
+}
