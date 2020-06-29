@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.mirador-window {
+.mirador-window, #main-osd {
   position: absolute;
   top: 0;
   left: 0;
