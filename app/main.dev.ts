@@ -64,9 +64,11 @@ const createWindow = async () => {
       process.env.ERB_SECURE !== 'true'
         ? {
             nodeIntegration: true,
+            webSecurity: false
           }
         : {
             preload: path.join(__dirname, 'dist/renderer.prod.js'),
+            webSecurity: false
           },
   });
 

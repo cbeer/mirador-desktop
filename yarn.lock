@@ -5945,6 +5945,11 @@ electron-is-dev@^1.1.0:
   resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-1.2.0.tgz#2e5cea0a1b3ccf1c86f577cee77363ef55deb05e"
   integrity sha512-R1oD5gMBPS7PVU8gJwH6CtT0e6VSoD0+SzSnYpNm+dBkcijgA+K7VAMHDfnRq/lkKPZArpzplTW6jfiMYosdzw==
 
+electron-localshortcut@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/electron-localshortcut/-/electron-localshortcut-0.6.1.tgz#c4e268c38a6e42f40de5618fc906d1ed608f11aa"
+  integrity sha1-xOJow4puQvQN5WGPyQbR7WCPEao=
+
 electron-localshortcut@^3.1.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/electron-localshortcut/-/electron-localshortcut-3.2.1.tgz#cfc83a3eff5e28faf98ddcc87f80a2ce4f623cd3"
@@ -6006,6 +6011,15 @@ electron-updater@^4.3.1:
     lazy-val "^1.0.4"
     lodash.isequal "^4.5.0"
     semver "^7.1.3"
+
+electron-window-manager@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/electron-window-manager/-/electron-window-manager-1.0.6.tgz#106adc66d3a31af6b7e1ead4a2fd39accb8bdd9c"
+  integrity sha512-hiHuZmqeBSgrfPdqWhXUaqhsczbU2lwv3SlJaLgMhA3lYNDlT3PkkpYTF12vbuyikcpKlFBoVv0mhacs2C/PYQ==
+  dependencies:
+    electron-localshortcut "^0.6.1"
+    melanke-watchjs "^1.3.1"
+    underscore "^1.8.3"
 
 electron@9.0.4:
   version "9.0.4"
@@ -10043,6 +10057,11 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+
+melanke-watchjs@^1.3.1:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/melanke-watchjs/-/melanke-watchjs-1.5.2.tgz#acc1c85fc04f3832bb9366896c844143ac686787"
+  integrity sha512-yNo8NiKkZd4K0Y/SNhbeW5PAmylfaClrOPpNTRibybRTe93Ozv1/emTanP6xwxi9TO0FS9b9F94/JQedJ1/j9g==
 
 mem@^4.0.0:
   version "4.3.0"
@@ -15034,6 +15053,11 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
+
+underscore@^1.8.3:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.10.2.tgz#73d6aa3668f3188e4adb0f1943bd12cfd7efaaaf"
+  integrity sha512-N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==
 
 unfetch@^4.0.0:
   version "4.1.0"

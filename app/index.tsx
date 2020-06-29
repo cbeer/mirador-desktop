@@ -6,6 +6,23 @@ import { history, configuredStore } from './store';
 import './app.global.css';
 
 const store = configuredStore();
+store.dispatch({
+  type: 'mirador/IMPORT_CONFIG',
+  config: {
+    id: 'mirador',
+    catalog: [],
+    window: {
+      allowClose: false,
+      allowMaximize: false,
+    },
+    windows: [{
+     id: 'main',
+     manifestId: 'https://iiif.harvardartmuseums.org/manifests/object/299843',
+     canvasId: 'https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174892',
+     thumbnailNavigationPosition: 'far-bottom',
+   }],
+ },
+});
 
 const AppContainer = process.env.PLAIN_HMR ? Fragment : ReactHotAppContainer;
 
