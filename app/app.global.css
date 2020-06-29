@@ -21,3 +21,7 @@ body {
   -webkit-app-region: drag;
   padding-left: 80px !important;
 }
+
+.mirador-thumb-navigation {
+  border-top: 1px solid rgba(0,0,0,0.14);
+}
